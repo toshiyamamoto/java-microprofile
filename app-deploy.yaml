@@ -1,0 +1,7 @@
+apiVersion: appsody.dev/v1alpha1
+kind: AppsodyApplication
+metadata:
+  name: REPLACE-NAME
+spec:
+  applicationImage: 
+  stack: java-microprofile
