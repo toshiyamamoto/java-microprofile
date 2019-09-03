@@ -17,13 +17,13 @@ spec:
     httpGet:
       path: /health/ready
       port: 9080
-    initialDelaySeconds: 5
+    initialDelaySeconds: 30
     periodSeconds: 2
   livenessProbe:
     failureThreshold: 12
     httpGet:
       path: /health/live
       port: 9080
-    initialDelaySeconds: 5
+    initialDelaySeconds: 30
     periodSeconds: 2
   expose: true
