@@ -1,12 +1,12 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
-pullPolicy: Always
 metadata:
   name: java-microprofile
 spec:
   # Add fields here
   version: 1.0.0
   applicationImage: java-microprofile 
+  pullPolicy: Always
   stack: java-microprofile
   service:
     type: NodePort
